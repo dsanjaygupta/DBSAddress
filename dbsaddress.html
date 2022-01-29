@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Customer page</title>
+        <style>
+            .d-flex {  
+  display: flex;  
+  flex-direction: row;  
+  background:#8cabc7;  
+  border-radius: 0 0 5px 5px;  
+  padding: 25px;  
+}  
+form {  
+  flex: 4;  
+}  
+.Yorder {  
+  flex: 2;  
+}  
+  
+h2 {  
+  margin: 0;  
+  padding-left: 15px;   
+}  
+.required {  
+  color: red;  
+}  
+label {  
+  display: block;  
+  margin: 15px;  
+}  
+table {  
+  display: block;  
+  margin: 15px;  
+}  
+label>span {  
+  float: left;  
+  width: 25%;  
+  margin-top: 12px;  
+  padding-right: 10px;  
+}  
+input[type="email"]  
+{  
+  width: 70%;  
+  height: 30px;  
+  padding: 5px 10px;  
+  margin-bottom: 10px;  
+  border: 1px solid #dadada;  
+  color: #888;  
+}  
+select  
+{  
+  width: 70%;  
+  height: 30px;  
+  padding: 5px 10px;  
+  margin-bottom: 10px;  
+  border: 1px solid #dadada;  
+  color: #888;  
+}  
+input[type="text"] {  
+  width: 70%;  
+  height: 30px;  
+  padding: 5px 10px;  
+  margin-bottom: 10px;  
+  border: 1px solid #dadada;  
+  color: #888;  
+}  
+input[type="tel"]   
+{  
+  width: 70%;  
+  height: 30px;  
+  padding: 5px 10px;  
+  margin-bottom: 10px;  
+  border: 1px solid #dadada;  
+  color: #888;  
+}  
+select {  
+  width: 72%;  
+  height: 45px;  
+  padding: 5px 10px;  
+  margin-bottom: 10px;  
+}  
+.Yorder {  
+  margin-top: 15px;  
+  height: 600px;  
+  padding: 20px;  
+  border: 1px solid #dadada;  
+}  
+table {  
+  margin: 0;  
+  padding: 0;  
+}  
+th {  
+  border-bottom: 1px solid #dadada;  
+  padding: 10px 0;  
+}  
+tr>td:nth-child(1) {  
+  text-align: left;  
+  color: #2d2d2a;  
+}  
+tr>td:nth-child(2) {  
+  text-align: right;  
+  color: #52ad9c;  
+}  
+td {  
+  border-bottom: 1px solid #dadada;  
+  padding: 25px 25px 25px 0;  
+}  
+p {  
+  display: block;  
+  color: #888;  
+  margin: 0;  
+  padding-left: 25px;  
+}  
+.Yorder>div {  
+  padding: 15px 0;   
+} 
+.a
+{
+    color:"red";
+} 
+        </style>
+    </head>
+    <body bgcolor="skyblue">
+        <div class="a">
+            <h1><marquee direction="right">Add Address</marquee></h1>
+        </div>
+        <div class="d-flex"> 
+        <form action="" method="">  
+            <label>  
+              <span class="fname"> First Name <span class="required"> * </span> </span>
+              <input type="text" name="fname">  
+            </label>  
+            <label>  
+              <span class="lname"> Last Name <span class="required"> * </span> </span>  
+              <input type="text" name="lname">  
+            </label>   
+            <label>  
+              <span>Country <span class="required">*</span></span>  
+              <select name="selection">  
+                <option value="AFG">Afghanistan</option>
+                <option value="ALB">Albania</option>
+                <option value="IND">INDIA</option>
+              </select>  
+            </label>  
+            <label>  
+              <span> Address <span class="required"> * </span></span>  
+              <input type="text" name="houseadd" placeholder="House number and street name" required>  
+            </label>  
+            <label>  
+              <span> </span>  
+              <input type="text" name="apartment" placeholder="Apartment, suite, unit etc. (optional)">  
+            </label>  
+            <label>  
+              <span> Town / City <span class="required">*</span></span>  
+              <input type="text" name="city">   
+            </label>  
+            <label>  
+              <span> State <span class="required">*</span></span>  
+              <input type="text" name="city">   
+            </label>  
+            <label>  
+              <span> Postcode / ZIP <span class="required">*</span></span>  
+              <input type="text" name="city">
+            </label>
+            <center>
+                <label>
+            <input type="submit" value="Add Address" name="sub">
+            </label>
+            </center>
+            </div>   
+    </body>
+</html>
